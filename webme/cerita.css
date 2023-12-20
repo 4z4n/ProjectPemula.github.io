@@ -1,0 +1,393 @@
+*,
+html {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(196, 196, 196);
+}
+
+nav {
+    background-color: rgb(53, 29, 75);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.50), 0 3px 6px rgba(0,0,0,0.43);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    background-color: rgb(53, 29, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+li {
+    background-color: rgb(53, 29, 75)
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    list-style-type: none;
+}
+
+a {
+    background-color: rgb(53, 29, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(162, 154, 158, 0.999);
+    font-weight: 800;
+}
+
+a:hover {
+    transition: 0.3s ease-in-out;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(226, 43, 137);
+}
+
+.c-0 {
+    margin-top: 15px;
+}
+
+.c-1 {
+    margin-top: 90px;
+}
+
+i {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 29, 75);
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.294), 0 3px 6px rgba(0, 0, 0, 0.304);
+}
+
+img {
+    margin-top: 10px;
+    width: 70px;
+    height: 50px;
+}
+
+.button {
+    font-weight: 900;
+    font-size: 15px;
+    font-style: oblique;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: rgb(197, 188, 198);
+}
+
+.button:hover {
+    transition: 0.3s ease-in-out;
+    color: rgb(117, 5, 127);
+    background-color: rgba(154, 5, 156, 0.328);
+}
+
+.sholawat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: absolute;
+}
+    
+
+.button0 {
+    font-weight: 900;
+    font-size: 15px;
+    font-style: oblique;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: rgb(197, 188, 198);
+}
+
+.button0:hover {
+    transition: 0.3s ease-in-out;
+    color: rgb(117, 5, 127);
+    background-color: rgba(154, 5, 156, 0.328);
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bidadari {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 29, 75);
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.294), 0 3px 6px rgba(0, 0, 0, 0.304);
+    background-color: transparent;
+}
+
+i {
+    background-color: transparent;
+}
+
+.x {
+    background-color: transparent;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.c-1 {
+    width: 70%;
+    margin-top: 20px;
+    background-color: rgba(208, 205, 211, 0.951);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.c-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(153, 50, 204, 0.216);
+    padding-bottom: 40px;
+    width: 70%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+img {
+    border-radius: 10px;
+    margin-top: 25px;
+    height: 40%;
+    width: 70%;
+    box-shadow: 0 10px 17px rgba(0,0,0,0.16), 0 10px 17px rgba(0,0,0,0.23);
+}
+
+.p-0 {
+    font-size: 17px;
+    color: rgb(25, 21, 23);
+    background-color: rgba(243, 235, 242, 0.445);
+    position: fixed;
+    margin-top: 70px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sematan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.sematan0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+article {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-art {
+    width: 80%;
+    height: auto;
+    background-color: aliceblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.h-art {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+b {
+    background-color: aliceblue;
+}
+
+.p-art {
+    background-color: aliceblue;
+    width: 80%;
+    font-size: small;
+    color: black;
+    font-weight: 500;
+}
+
+.p-art1 {
+    background-color: aliceblue;
+    width: 80%;
+    padding-top: 10px;
+    font-size: small;
+    color: black;
+    font-weight: 500;
+}
+
+.p-art2 {
+    background-color: aliceblue;
+    width: 80%;
+    padding-bottom: 30px;
+    font-size: small;
+    color: black;
+    font-weight: 500;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+ol {
+    padding: 10px;
+}
+
+.li-ol {
+    list-style-type: decimal;
+}
+
+@media screen and (max-width: 464px) {
+    i {
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(53, 29, 75);
+        text-shadow: 0 3px 6px rgba(0, 0, 0, 0.294), 0 3px 6px rgba(0, 0, 0, 0.304);
+    }
+
+    .button0 {
+        font-weight: 900;
+        font-size: small;
+        font-style: oblique;
+        margin-left: 10px;
+        margin-top: 30px;
+        padding: 7px;
+        border-radius: 7px;
+        background-color: rgb(197, 188, 198);
+    }
+
+    .button {
+        font-weight: 900;
+        font-size: small;
+        font-style: oblique;
+        margin-left: 30px;
+        margin-top: 30px;
+        padding: 7px;
+        border-radius: 7px;
+        background-color: rgb(197, 188, 198);
+    }
+}
+
+@media screen and (max-width: 396px) {
+    i {
+        font-size: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(53, 29, 75);
+        text-shadow: 0 3px 6px rgba(0, 0, 0, 0.294), 0 3px 6px rgba(0, 0, 0, 0.304);
+    }
+
+    .button0 {
+        font-weight: 900;
+        font-size: 8px;
+        font-style: oblique;
+        margin-left: 10px;
+        margin-top: 30px;
+        padding: 7px;
+        border-radius: 7px;
+        background-color: rgb(197, 188, 198);
+    }
+
+    .button {
+        font-weight: 900;
+        font-size: 8px;
+        font-style: oblique;
+        margin-left: 30px;
+        margin-top: 30px;
+        padding: 7px;
+        border-radius: 7px;
+        background-color: rgb(197, 188, 198);
+    }
+
+    .p-art {
+        background-color: aliceblue;
+        width: 80%;
+        font-size: 8px;
+        color: black;
+        font-weight: 500;
+    }
+    
+    .p-art1 {
+        background-color: aliceblue;
+        width: 80%;
+        padding-top: 10px;
+        font-size: 8px;
+        color: black;
+        font-weight: 500;
+    }
+    
+    .p-art2 {
+        background-color: aliceblue;
+        width: 80%;
+        padding-bottom: 30px;
+        font-size: 8px;
+        color: black;
+        font-weight: 500;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 302px) {
+    i {
+        font-size: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(53, 29, 75);
+        text-shadow: 0 3px 6px rgba(0, 0, 0, 0.294), 0 3px 6px rgba(0, 0, 0, 0.304);
+    }
+
+    .button0 {
+        font-weight: 900;
+        font-size: 5px;
+        font-style: oblique;
+        margin-left: 10px;
+        margin-top: 30px;
+        padding: 7px;
+        border-radius: 7px;
+        background-color: rgb(197, 188, 198);
+    }
+
+    .button {
+        font-weight: 900;
+        font-size: 5px;
+        font-style: oblique;
+        margin-left: 30px;
+        margin-top: 30px;
+        padding: 7px;
+        border-radius: 7px;
+        background-color: rgb(197, 188, 198);
+    }
+}

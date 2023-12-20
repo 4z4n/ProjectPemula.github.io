@@ -1,0 +1,237 @@
+*,
+html {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(196, 189, 189);
+}
+
+nav {
+    background-color: rgb(53, 29, 75);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.50), 0 3px 6px rgba(0,0,0,0.43);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    background-color: rgb(50, 26, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 8px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: fixed;
+    padding: 25px;
+    margin-left: 14px;
+}
+
+li {
+    margin: 35px;
+    background-color: rgb(50, 26, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    margin-top: 30px;
+    background-color: rgb(50, 26, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px;
+    color: rgba(162, 154, 158, 0.999);
+    position: fixed;
+    margin-left: 14px;
+    font-weight: 700;
+}
+
+a:hover {
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(226, 43, 137);
+}    
+
+.c-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 15px;
+}
+
+.c-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.c-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.c-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.c-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.c-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.email {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid rgb(50, 26, 73);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.50), 0 3px 6px rgba(0,0,0,0.43)
+}
+
+.email:hover {
+    background-color: transparent;
+    box-shadow: 7px 7px 6px rgba(0,0,0,0.50), 7px 7px 6px rgba(0,0,0,0.43)
+}
+
+img {
+    background-color: rgb(147, 147, 147);
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width: 486px) {
+    .c-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        font-size: 15px;
+        font-size: small;
+    }
+    
+    .c-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: small;
+    }
+    
+    .c-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        font-size: small;
+    }
+    
+    .c-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        font-size: small;
+    }
+    
+    .c-5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: small;
+    }
+    
+    .c-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        font-size: small;
+    }
+    
+}
+
+@media screen and (max-width: 352px) {
+    .c-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        font-size: 15px;
+        font-size: 10px;
+    }
+    
+    .c-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+    
+    .c-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+    .c-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+    .c-5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    
+    .c-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+}

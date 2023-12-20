@@ -1,0 +1,132 @@
+*,
+html {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(196, 196, 196);
+}
+
+nav {
+    background-color: rgb(53, 29, 75);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.50), 0 3px 6px rgba(0,0,0,0.43);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    background-color: rgb(53, 29, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+li {
+    background-color: rgb(53, 29, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+a {
+    background-color: rgb(53, 29, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(162, 154, 158, 0.999);
+    font-weight: 800;
+}
+
+a:hover {
+    transition: 0.3s ease-in-out;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(226, 43, 137);
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+i {
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.x {
+    background-color: transparent;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.c-1 {
+    width: 70%;
+    margin-top: 20px;
+    background-color: rgba(208, 205, 211, 0.951);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.c-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(153, 50, 204, 0.216);
+    padding-bottom: 40px;
+    width: 70%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+img {
+    border-radius: 10px;
+    margin-top: 25px;
+    height: 40%;
+    width: 70%;
+    box-shadow: 0 10px 17px rgba(0,0,0,0.16), 0 10px 17px rgba(0,0,0,0.23);
+}
+
+.p-0 {
+    font-size: 17px;
+    color: rgb(25, 21, 23);
+    background-color: rgba(243, 235, 242, 0.445);
+    position: fixed;
+    margin-top: 70px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure {
+    margin-bottom: 15px;
+}
+
+.love {
+    margin-top: 15px;
+}
